@@ -1,0 +1,97 @@
+*{
+    font-family: Century Gothic;
+}
+#board {
+    margin-top: 70px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #ddd;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ffcc00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cell:hover {
+    background-color: #ff9900;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .nav{
+    height: 70px;
+    background-color: #ff9900;
+    color: #333;
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+    text-align: center;
+    overflow: hidden;
+  }
+  
